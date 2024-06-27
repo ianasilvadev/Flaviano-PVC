@@ -1,0 +1,107 @@
+/* Estilos globais importados via @import no início do arquivo foram removidos */
+
+.home {
+    font-family: 'DM Sans', sans-serif;
+    color: #0F241D;
+  }
+  
+  .header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-left: 40px;
+    margin-right: 8%;
+    font-size: 20px;
+    padding: 10px 20px;
+    border-bottom: 1px solid #E4E4E4;
+  }
+  
+  .logo img {
+    vertical-align: middle;
+    width: 9%;
+  }
+  
+  .lista {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    flex-grow: 1;
+    justify-content: flex-end;
+    cursor: pointer;
+  }
+  
+  .lista li:hover {
+    color: #1F3658;
+    border-bottom: 3px solid #1F3658;
+    padding-bottom: 8px;
+  }
+  
+  .lista li {
+    margin-left: 70px;
+  }
+  
+  .titulo {
+    font-family: 'Poppins', sans-serif;
+    font-size: 46px;
+    color: #1F3658;
+  }
+  
+  .subtituloServico {
+    color: #767676;
+    font-size: 20px;
+  }
+  
+  .btn {
+    padding: 14px 60px;
+    border-radius: 4px;
+    background: #1F3658;
+    color: #F9F9F9;
+    font-weight: 500;
+    font-size: 16px;
+    border: none;
+  }
+  
+  .agendaServico {
+    position: absolute;
+    top: 300px;
+    left: 250px;
+  }
+  
+  .imagens {
+    position: absolute;
+    top: 290px;
+    left: 58%;
+    width: 33%;
+  }
+  
+  .shape {
+    position: absolute;
+    top: 250px;
+    left: 65%;
+    width: 700px;
+    max-width: max-content;
+  }
+  
+  .sobreConteiner {
+    margin-top: 840px;
+    position: relative;
+  }
+  
+  .servicosConteiner {
+    margin-top: 1580px;
+    position: relative;
+  }
+  
+
+  .footerConteiner {
+    margin-top: 510px;
+    position: relative;
+  }
+
+  .contatoConteiner{
+    margin-top: 350px;
+    position: relative;
+
+  }
+  
